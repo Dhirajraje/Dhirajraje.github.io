@@ -1,0 +1,24 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: unset;
+}
+body{
+    position:fixed;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right,rgb(255, 82, 29),rgb(248, 49, 125));
+    background-repeat: no-repeat;
+    align-items: center;
+}
+#main-container{
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+@media only screen and (max-width:500){
+    
+}
