@@ -8,7 +8,7 @@ body{
     top:0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom right,rgb(255, 82, 29),rgb(248, 49, 125));
+    background-image: linear-gradient(to bottom right,rgb(255, 92, 42),rgb(248, 49, 109));
     background-repeat: no-repeat;
     align-items: center;
 }
@@ -16,10 +16,11 @@ body{
     position: relative;
     top: 0;
     height: 100%;
-    width: 100%;
+    width: 96%;
     text-align: center;
 }
 #avatar img{
+    margin-top: 5%;
     width: 30%;;
     border-radius: 50%;
     border: white solid 4px;
@@ -27,10 +28,49 @@ body{
 #your-name{
     color:white;
     font-style: bold;
+    margin: 1%;
 }
 #bio{
     color: white;
-    margin-right: 3%;
+    font: 1em serif;;
+}
+ul{
+    margin-top: 10%;
+    list-style-type: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+ul li{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+ul li:nth-child(odd) a{
+    margin: 2%;
+    padding: 2%;
+    width: 45%;
+    float: left;
+    color: whitesmoke;
+    border: solid white 3px;
+    box-sizing: border-box;
+}
+ul li:nth-child(even) a{
+    margin: 2%;
+    padding: 2%;
+    width: 45%;
+    float: right;
+    color: whitesmoke;
+    border: solid white 3px;
+    box-sizing: border-box;
+}
+#resumeButton{
+    position: fixed;
+    margin-left: 37%;
+    top: 93%;
+    width: 20%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: #000 2px 3px 4px;
 }
 @media only screen and (max-width:450){
     
