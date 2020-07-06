@@ -19,6 +19,7 @@ github = document.querySelector('#Github a');
 linkedIn = document.querySelector('#LinkedIn a');
 instagram = document.querySelector('#Instagram a');
 facebook = document.querySelector('#Facebook a');
+resumeBlock = document.getElementById('resume-block');
 
 document.title = profileData.Name;
 yourName.innerHTML = profileData.Name;
@@ -45,6 +46,11 @@ instagram.href = profileData.Instagram;
 facebook.title = profileData.Facebook;
 facebook.href = profileData.Facebook;
 
+
+// Resume block display
+
+var isResumeOpen = false;
+
 function showResume(){
-    console.log('Hi')
+    window.open('Assets/Resume.pdf');
 }
