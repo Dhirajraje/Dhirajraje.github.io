@@ -52,6 +52,7 @@ ul li:nth-child(odd) a{
     color: whitesmoke;
     border: solid white 3px;
     box-sizing: border-box;
+    border-radius: 50px;
 }
 ul li:nth-child(even) a{
     margin: 2%;
