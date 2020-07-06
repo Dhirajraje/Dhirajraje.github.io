@@ -62,6 +62,7 @@ ul li:nth-child(even) a{
     color: whitesmoke;
     border: solid white 3px;
     box-sizing: border-box;
+    border-radius: 50px;
 }
 #resumeButton{
     position: fixed;
