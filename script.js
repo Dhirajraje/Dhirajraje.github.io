@@ -48,9 +48,6 @@ facebook.href = profileData.Facebook;
 
 
 // Resume block display
-
-var isResumeOpen = false;
-
 function showResume(){
     window.open('Assets/Resume.pdf');
 }
