@@ -60,7 +60,36 @@ ul li a{
     top: 90%;
     width: 20%;
     padding: 2%;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #FFF;
     box-shadow: #000 2px 3px 4px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:500px){
+    #avatar img{
+        width: 15%;
+        margin-top: 2%;
+    }
+    #bio{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    ul{
+        margin-top: 0%;
+    }
+    ul li a{
+        width: 28%;
+    }
+    #resumeButton{
+        position:absolute;
+        margin-left: 85%;
+       top: 80%;
+       width: 80px;
+       height:80px;
+       padding:0px;
+       text-align: center;
+       padding-top: 32px;
+       left: 20px;
+    }
 }
