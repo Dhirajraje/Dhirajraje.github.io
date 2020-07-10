@@ -1,5 +1,5 @@
-#<img alt="Avatar" src="Assets/circle-Avatar.png" width="35"> Dhiraj Salunke
-<p style="font: 16px serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a passionate django, web, flutter-firebase developer and a linux geek. Looking forward to work with the organization where I can use my knowledge and skills for its growth.
+#Dhiraj Salunke
+<img alt="Avatar" src="Assets/circle-Avatar.png" width="40">I am a passionate django, web, flutter-firebase developer and a linux geek. Looking forward to work with the organization where I can use my knowledge and skills for its growth.
 </p>
 <hr>
 ##Feild of interest
