@@ -90,8 +90,9 @@ p {
     color: white;
 }
 
-embed {
+#embed {
     position: relative;
-    height: 65%;
-    width: 60%;
+    height: 55%;
+    width: 49%;
+    cursor: pointer;
 }

@@ -7,7 +7,6 @@ var closeButton = document.getElementsByClassName('close');
 function closeWindowCompletely(card) {
     detailWindow.style.left = '37.5%';
     card.style.left = '37.5%';
-    console.log(card.style.left);
 }
 
 function closeWindow(card) {
@@ -51,4 +50,10 @@ document.getElementById('contact').addEventListener('click', () => {
     for (var i = 0; i < cards.length; i++)
         closeWindow(cards[i]);
     openWindow(cards[3]);
+})
+
+
+document.getElementsByClassName('button')[4].addEventListener('click', () => {
+    event.preventDefault();
+    window.open('Assets/Resume.pdf', '_blank');
 })
