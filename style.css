@@ -25,9 +25,9 @@ body {
     width: 25%;
     height: 70%;
     border-radius: 0.7vw;
-    box-shadow: 1vw 0.5vw 3vw rgb(59, 36, 52);
+    box-shadow: 0.5vw 0.5vw 2vw rgb(59, 36, 52);
     z-index: 1;
-    transition: left 3s;
+    transition: left 1.5s;
     text-align: center;
 }
 
@@ -48,10 +48,10 @@ p {
     left: 37.5%;
     width: 25%;
     height: 65%;
-    transition: left 3s;
+    transition: left 1.5s;
     border-radius: 0.6vw;
     background-color: rgb(252, 81, 138);
-    box-shadow: 1vw 0.5vw 3vw rgb(59, 36, 52);
+    box-shadow: 0.5vw 0.5vw 2vw rgb(59, 36, 52);
 }
 
 .button {
@@ -63,4 +63,28 @@ p {
     border: 0.2vw solid white;
     margin-top: 0.5vw;
     border-radius: 2vw;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    color: red;
+    box-sizing: border-box;
+    border-radius: 0 0.6vw 0 0.6vw;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: rgb(255, 81, 37);
+    color: white;
 }
