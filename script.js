@@ -1,53 +1,54 @@
-// your own data here
-var profileData = {
-    "Name"  : "Dhiraj Salunke",
-    "Email" : "dhirajraje113@gmail.com",
-    "Bio"   : "I am a passionate django, web, flutter-firebase developer and a linux geek. Looking forward to work with the organization where I can use my knowledge and skills for its growth.",
-    "Phone" : "+91 9923454467",
-    "GitHub": "https://github.com/Dhirajraje",
-    "LinkedIn"  : "https://www.linkedin.com/in/dhiraj-salunke-702564183/",
-    "Instagram" : "https://instagram.com/_dhirajraje_",
-    "Facebook"  : "https://www.facebook.com/dhirajraje.salunke",
+var detailWindow = document.getElementById('main-card');
+var cards = document.getElementsByClassName('detail-card');
+var cardIds = ['showcase', 'resume', 'skills', 'contact'];
+var closeButton = document.getElementsByClassName('close');
+// Close Window
+
+function closeWindowCompletely(card) {
+    detailWindow.style.left = '37.5%';
+    card.style.left = '37.5%';
+    console.log(card.style.left);
 }
 
-
-yourName = document.getElementById('your-name');
-bio = document.getElementById('bio');
-phone = document.querySelector('#Phone a');
-email = document.querySelector('#Email a');
-github = document.querySelector('#Github a');
-linkedIn = document.querySelector('#LinkedIn a');
-instagram = document.querySelector('#Instagram a');
-facebook = document.querySelector('#Facebook a');
-resumeBlock = document.getElementById('resume-block');
-
-document.title = profileData.Name;
-yourName.innerHTML = profileData.Name;
-bio.innerHTML = profileData.Bio;
-
-
-//list data set
-
-phone.title = profileData.Phone;
-phone.href = "tel:"+profileData.Phone;
-
-email.title = profileData.Email;
-email.href = "mailto:"+profileData.Email;
-
-github.title = profileData.GitHub;
-github.href = profileData.GitHub;
-
-linkedIn.title = profileData.LinkedIn;
-linkedIn.href = profileData.LinkedIn;
-
-instagram.title = profileData.Instagram;
-instagram.href = profileData.Instagram;
-
-facebook.title = profileData.Facebook;
-facebook.href = profileData.Facebook;
-
-
-// Resume block display
-function showResume(){
-    window.open('Assets/Resume.pdf');
+function closeWindow(card) {
+    card.style.left = '25%';
 }
+for (var i = 0; i < closeButton.length; i++) {
+    closeButton[i].addEventListener('click', () => {
+        event.preventDefault();
+        for (var i = 0; i < cards.length; i++)
+            closeWindowCompletely(cards[i]);
+    })
+}
+
+//open window
+
+function openWindow(card) {
+    detailWindow.style.left = '25%';
+    card.style.left = '50%';
+
+}
+
+document.getElementById('showcase').addEventListener('click', () => {
+    for (var i = 0; i < cards.length; i++)
+        closeWindow(cards[i]);
+    openWindow(cards[0]);
+})
+
+document.getElementById('resume').addEventListener('click', () => {
+    for (var i = 0; i < cards.length; i++)
+        closeWindow(cards[i]);
+    openWindow(cards[1]);
+})
+
+document.getElementById('skills').addEventListener('click', () => {
+    for (var i = 0; i < cards.length; i++)
+        closeWindow(cards[i]);
+    openWindow(cards[2]);
+})
+
+document.getElementById('contact').addEventListener('click', () => {
+    for (var i = 0; i < cards.length; i++)
+        closeWindow(cards[i]);
+    openWindow(cards[3]);
+})
