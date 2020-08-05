@@ -101,9 +101,8 @@ p {
     left: 20%;
     width: 60%;
     height: 60%;
-    background-color: white;
 }
-.card-content>div{
+.gallery-window{
     width: 50%;
     height: 50%;
     position: relative;
@@ -157,4 +156,11 @@ p {
     filter: opacity(0.4);
     cursor: pointer;
     background-size: contain;
+}
+
+.skill-button{
+    position: relative;
+    width: 100%;
+    padding-top: 0.2vw;
+    cursor: text;
 }
