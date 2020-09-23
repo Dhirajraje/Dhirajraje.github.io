@@ -64,6 +64,7 @@ p {
     border: 0.2vw solid white;
     margin-top: 0.5vw;
     border-radius: 2vw;
+    padding: 0.2vw;
 }
 
 .button:hover {
@@ -160,7 +161,7 @@ p {
 
 .skill-button{
     position: relative;
-    width: 100%;
+    width: 50%;
     padding-top: 0.2vw;
-    cursor: text;
+    cursor: wait;
 }
