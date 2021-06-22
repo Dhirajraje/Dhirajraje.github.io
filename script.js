@@ -12,7 +12,7 @@ function isBetween(min,max,val){
 }
 function resizeMsg(){
     var errorMsg = "<div id='Error-Msg'>We currently support aspect ratios between 1.73 to 2.35, So kindly resize your window or Rotate your phone.</div>";
-    if(!isBetween(1.73,2.35,window.innerWidth/window.innerHeight)){
+    if(!isBetween(1.73,2.45,window.innerWidth/window.innerHeight)){
         document.body.removeChild(document.body.firstChild);
         document.body.innerHTML = errorMsg;
     }
