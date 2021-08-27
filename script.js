@@ -5,14 +5,11 @@ var closeButton = document.getElementsByClassName('close');
 var content = document.body.innerHTML;
 
 function isBetween(min,max,val){
-    if(val>=min&&val<=max)
-        return true;
-    else
-        return false;
+    return val>=min&&val<=max;
 }
 function resizeMsg(){
     var errorMsg = "<div id='Error-Msg'>We currently support aspect ratios between 1.73 to 2.35, So kindly resize your window or Rotate your phone.</div>";
-    if(!isBetween(1.73,2.45,window.innerWidth/window.innerHeight)){
+    if(!isBetween(1.3959484346224678,2.35177304964539,window.innerWidth/window.innerHeight)){
         document.body.removeChild(document.body.firstChild);
         document.body.innerHTML = errorMsg;
     }
