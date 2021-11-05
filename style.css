@@ -1,6 +1,7 @@
 body {
   margin: 0%;
-  overflow: none;
+  overflow: hidden;
+  color: white;
 }
 
 .drawer {
@@ -33,7 +34,7 @@ body {
 .nav-header li{
   list-style-type: none;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin-left: 0.5rem;
   display: inline-block;
   width: 10rem;
   border:solid #fff 2px;
@@ -67,7 +68,7 @@ body {
 .intro-text{
   padding-left: 1rem;
   padding-right: 1rem;
-  /* padding-top: 1rem; */
+  padding-top: 1rem;
 }
 .description{
   padding: 1rem;
@@ -75,6 +76,7 @@ body {
 }
 .download-button{
   display: inline-block;
+  box-sizing: border-box;
   padding: 1rem;
   margin: 1rem;
   background-color: transparent;
@@ -103,7 +105,10 @@ body {
 .info-page{
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
   overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: rgb(20, 25, 31);
 }
 
 .info-wrap{
