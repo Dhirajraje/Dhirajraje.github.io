@@ -11,3 +11,7 @@ function openDrawer(){
     var arrow = document.querySelector('.arrow');
     arrow.style.display = 'none';
 }
+
+function scrollToId(id){
+    document.scrollTo(id);
+}

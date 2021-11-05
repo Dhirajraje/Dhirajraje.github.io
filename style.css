@@ -1,5 +1,6 @@
 body {
   margin: 0%;
+  overflow: none;
 }
 
 .drawer {
@@ -65,7 +66,8 @@ body {
 
 .intro-text{
   padding-left: 1rem;
-  padding-top: 3rem;
+  padding-right: 1rem;
+  /* padding-top: 1rem; */
 }
 .description{
   padding: 1rem;
@@ -89,4 +91,22 @@ body {
   font-weight: bold;
   cursor: pointer;
   color: #fff;
+}
+
+.title-text{
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 3rem;
+}
+
+.info-page{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.info-wrap{
+  width: 100vw;
+  height: 100vh;
 }
