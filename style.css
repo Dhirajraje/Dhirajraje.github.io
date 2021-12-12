@@ -1,117 +1,125 @@
+html {
+  margin: 0%;
+
+}
 body {
   margin: 0%;
-  overflow: hidden;
+  overflow-x: hidden;
   color: white;
 }
-
-.drawer {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  background-image: url('Assets/cover.jpg');
-  background-position: center;
-  background-size: cover;
-  backdrop-filter: blur(10px);
+.landing-page{
   width: 100vw;
   height: 100vh;
-  transition: all ease-out 500ms;
+  background-image: url('/Assets/spheres-dark-abstract.webp');
+  background-size: cover;
+  background-position: center;
 }
-
-.avatar {
-  display: inline-block;
-  background-color: rgb(47, 45, 53);
-  border-radius: 50rem;
-}
-
-.nav-header {
-  position: relative;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.nav-header li{
-  list-style-type: none;
-  padding: 0.5rem;
-  margin-left: 0.5rem;
-  display: inline-block;
-  width: 10rem;
-  border:solid #fff 2px;
-  border-radius: 2rem;
-  transition: all 0.5s ease-in-out;
-}
-.nav-header li:hover{
-  background-color: #fff;
-  cursor: pointer;
-  color: #3a4df8;
-  font-weight: bold;
-}
-.nav-header, .mailme a{
-  color: #ffffff;
-}
-
-.arrow{
-  position: absolute;
-  left: 100%;
-  padding: 1rem;
-  font-size: 1rem;
-  background-color: #8ce4ff;
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-  cursor: pointer;
-  font-weight: bold;
-  color: #fff;
+header{
   display: none;
 }
-
-.intro-text{
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-}
-.description{
-  padding: 1rem;
-  font-size: 1.2rem;
-}
-.download-button{
+.center{
+  position: relative;
   display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.name{
+  padding: 0%;
+  margin: 0%;
+  font-size: 4rem;
+  color: #ffffff;
+  text-shadow: #ff8989 0px 0px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+  padding: 0%;
+  margin: 0%;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: #ff8989 0px 0px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subtitle{
+  font-size: 1.3rem;
+  
+}
+.navbar{
+  z-index: 2;
+  width: 100vw;
+  height: 4rem;
+  background-color: rgb(24, 25, 27);
+  position: sticky;
+  top: 0;
   box-sizing: border-box;
-  padding: 1rem;
-  margin: 1rem;
-  background-color: transparent;
-  border: solid rgb(35, 36, 43) 2px;
-  border-radius: 3rem;
-  font-weight: bold;
-  transition: all 500ms ease-out;
+}
+.left, .right-action{
+  margin: 0;
+  display: inline-block;
+  width: 49vw;
+  box-sizing: border-box;
+} 
+.right-action{
+  text-align: right;
+}
+.showcase-page{
+  vertical-align: middle;
+  padding: 0rem 15rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.download-button:hover{
-  background-color: rgb(35, 36, 43);
-  border: solid rgb(35, 36, 43) 2px;
-  border-radius: 3rem;
-  font-weight: bold;
+.skills-page{
+  vertical-align: middle;
+  padding: 0rem 15rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info-card {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 20rem;
+  margin: 1rem 1rem;
+  text-align: center;
+  font-family: arial;
+  color: #424242;
+  display: inline-block;
+}
+
+
+.info-card .img{
+  height: 12rem;
+  background-image: url('Assets/CoronaCounter.webp');
+  background-size: cover;
+  border: #424242 solid 0px  1px ;
+}
+
+.tech {
+  color: #afafaf;
+  font-size: 22px;
+}
+
+.info-card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
   cursor: pointer;
-  color: #fff;
+  width: 100%;
+  font-size: 18px;
 }
-
-.title-text{
-  padding-top: 4rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 3rem;
+.info-card h2{
+  margin: 1rem;
+  
 }
-
-.info-page{
-  width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  background-color: rgb(20, 25, 31);
+.info-card p{
+  margin: 0;
+  
 }
-
-.info-wrap{
-  width: 100vw;
-  height: 100vh;
+.info-card button:hover {
+  opacity: 0.7;
 }
