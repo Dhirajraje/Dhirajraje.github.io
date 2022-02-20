@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dhirajsalunke": {
+      "hosting": {
+        "Portfolio": [
+          "dhirajsalunke"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dhirajsalunke"
+  }
+}
