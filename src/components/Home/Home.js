@@ -11,6 +11,7 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "../About/Toolstack";
 import ResumeNew from "../Resume/ResumeNew";
 import Contact from "./Contact";
+import Projects from "../Projects/Projects";
 function Home() {
   return (
     <section>
@@ -87,6 +88,7 @@ function Home() {
           <Github />
         </Container>
         <ResumeNew />
+        <Projects />
         <Contact />
       </Container>
     </section>
