@@ -2,12 +2,15 @@ import React from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import myImg from "../../Assets/contact.svg";
 import Tilt from "react-parallax-tilt";
+import axios from 'axios';
+
 import {
 
   AiOutlineSend,
 } from "react-icons/ai";
 
 function Contact() {
+  axios.defaults.headers.post['Content-Type'] = 'application/json';
   var name = '';
   var email = '';
   var message = '';
@@ -36,7 +39,16 @@ function Contact() {
                 <Form.Label>Message for me </Form.Label>
                 <Form.Control as="textarea" rows={5} placeholder="Type your message here...." onChange={e => message = e.target.value} />
               </Form.Group>
-              <Button variant="primary" onClick={e => console.log({ email, name, message })}>
+              <Button variant="primary" onClick={e => {
+                console.log({ email, name, message });
+                axios.post('https://formsubmit.co/ajax/dhirajraje113@gmail.com', {
+                  name, email, message
+                })
+                  .then(response => {
+                    alert("Message sent successfully");
+                  })
+                  .catch(error => console.log(error));
+              }}>
                 Submit <AiOutlineSend />
               </Button>
             </p>

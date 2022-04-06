@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import iamGo from "../../Assets/Projects/main.go.png";
 import helloFarmer from "../../Assets/Projects/hello_farmer.png";
 import roomie from "../../Assets/Projects/roomie.png";
-import iamGo from "../../Assets/Projects/main.go.png";
 
 
 function Projects() {
