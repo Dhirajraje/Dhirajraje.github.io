@@ -86,10 +86,10 @@ function Home() {
           <Toolstack />
 
           <Github />
+          <ResumeNew />
+          <Projects />
+          <Contact />
         </Container>
-        <ResumeNew />
-        <Projects />
-        <Contact />
       </Container>
     </section>
   );
