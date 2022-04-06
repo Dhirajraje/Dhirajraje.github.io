@@ -20,27 +20,26 @@ function Contact() {
         <Row>
           <Col md={5} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              Leave <span className="purple"> your </span> contact
+              Let's <span className="purple"> connect </span>
             </h1>
             <p className="home-about-body">
 
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Your name</Form.Label>
-                <Form.Control type="name" placeholder="Enter name...." onChange={e => name = e.target.value} />
+                <Form.Control required type="name" placeholder="Enter name...." onChange={e => name = e.target.value} />
                 <Form.Text className="text-muted">
                 </Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Your email</Form.Label>
-                <Form.Control type="email" placeholder="Enter email...." onChange={e => email = e.target.value} />
+                <Form.Control required type="email" placeholder="Enter email...." onChange={e => email = e.target.value} />
               </Form.Group>
               <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Message for me </Form.Label>
                 <Form.Control as="textarea" rows={5} placeholder="Type your message here...." onChange={e => message = e.target.value} />
               </Form.Group>
-              <Button variant="primary" onClick={e => {
-                console.log({ email, name, message });
+              <Button variant="primary" onClick={e => {                
                 axios.post('https://formsubmit.co/ajax/dhirajraje113@gmail.com', {
                   name, email, message
                 })
