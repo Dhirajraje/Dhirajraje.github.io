@@ -24,14 +24,16 @@
 								/></svg
 							>
 						</div>
-						<h2 class="text-gray-900 text-lg title-font font-medium">Shooting Stars</h2>
+						<h2 class="text-gray-900 text-lg title-font font-medium">Crop disease detector</h2>
 					</div>
 					<div class="flex-grow">
 						<p class="leading-relaxed text-base">
-							Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
-							indxgo juice poutine.
+							A multitier system hosted on AWS and built with flutter, python and tensorflow which
+							can detect plant diseases.
 						</p>
-						<a class="mt-3 text-indigo-500 inline-flex items-center"
+						<a
+							class="mt-3 text-indigo-500 inline-flex items-center"
+							href="https://iccdhiraj.web.app/"
 							>Learn More
 							<svg
 								fill="none"
@@ -67,14 +69,16 @@
 								/></svg
 							>
 						</div>
-						<h2 class="text-gray-900 text-lg title-font font-medium">The Catalyzer</h2>
+						<h2 class="text-gray-900 text-lg title-font font-medium">AWS IAM reporter</h2>
 					</div>
 					<div class="flex-grow">
 						<p class="leading-relaxed text-base">
-							Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
-							indxgo juice poutine.
+							Inactive user reporter tool built with golang, AWS Lambda and AWS SNS. The tool
+							reports user that are inactive for last 'X' days.
 						</p>
-						<a class="mt-3 text-indigo-500 inline-flex items-center"
+						<a
+							class="mt-3 text-indigo-500 inline-flex items-center"
+							href="https://www.linkedin.com/posts/dhiraj-salunke_aws-go-golang-activity-6886698450096820224-M4JF"
 							>Learn More
 							<svg
 								fill="none"
@@ -110,14 +114,16 @@
 								/></svg
 							>
 						</div>
-						<h2 class="text-gray-900 text-lg title-font font-medium">Neptune</h2>
+						<h2 class="text-gray-900 text-lg title-font font-medium">India corona counter</h2>
 					</div>
 					<div class="flex-grow">
 						<p class="leading-relaxed text-base">
-							Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub
-							indxgo juice poutine.
+							A cross platform app that give almost live count of covid cases in india built with
+							flutter and public APIs.
 						</p>
-						<a class="mt-3 text-indigo-500 inline-flex items-center"
+						<a
+							class="mt-3 text-indigo-500 inline-flex items-center"
+							href="https://iccdhiraj.web.app/"
 							>Learn More
 							<svg
 								fill="none"

@@ -1,6 +1,6 @@
 <div class="container">
 	<h1 class="text-slate-800 font-semibold text-4xl p-8 text-center">My journey till now</h1>
-	<div class="flex flex-col md:grid grid-cols-9 mx-auto p-8 text-indigo-50">
+	<div class="flex flex-col md:grid grid-cols-9 mx-auto p-8 text-indigo-50 justify-center">
 		<div class="flex flex-row-reverse md:contents">
 			<div class="col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2">
 				<h3 class="text-slate-800 font-semibold text-lg mb-1">Software Engineer</h3>
