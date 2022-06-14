@@ -5,7 +5,7 @@ import Experience from "$lib/components/experience.svelte";
 import Footer from "$lib/components/footer.svelte";
 import TechSkills from "$lib/components/techSkills.svelte";
 import Contactsection from "$lib/components/contactsection.svelte";
-import Projects from "$lib/projects.svelte";
+import Projects from "$lib/components/projects.svelte";
 
 </script>
 
