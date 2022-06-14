@@ -7,10 +7,10 @@
 	function sendMail() {
 		mailer({ name, email, message })
 			.then((data) => {
-				addToast("Your response has submitted.", 'info', 2000);
+				addToast('Your response has submitted.', 'info', 2000);
 			})
 			.catch((err) => {
-				addToast("Error while sending response.", 'warn', 200);
+				addToast('Error while sending response.', 'warn', 200);
 			});
 	}
 </script>
@@ -82,7 +82,7 @@
 				on:click={(e) => {
 					sendMail();
 				}}
-				class="text-white bg-indigo-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+				class="items-center text-white hover:shadow-lg hover:shadow-indigo-300 bg-indigo-900 transition-all duration-300 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg"
 				>Get in touch!</button
 			>
 			<p class="text-xs text-gray-900 mt-3">
