@@ -1,7 +1,18 @@
 <script>
+	import mailer from '$lib/service/emailer';
+	import { addToast } from 'as-toast';
 	let name = '';
 	let email = '';
 	let message = '';
+	function sendMail() {
+		mailer({ name, email, message })
+			.then((data) => {
+				addToast("Your response has submitted.", 'info', 2000);
+			})
+			.catch((err) => {
+				addToast("Error while sending response.", 'warn', 200);
+			});
+	}
 </script>
 
 <section class="text-gray-600 body-font relative">
@@ -69,7 +80,7 @@
 			</div>
 			<button
 				on:click={(e) => {
-					console.log({ name, email, message });
+					sendMail();
 				}}
 				class="text-white bg-indigo-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
 				>Get in touch!</button
