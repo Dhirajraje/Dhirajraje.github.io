@@ -22,7 +22,7 @@
 			</p>
 			<div class="flex pb-4 gap-2">
 				<a
-					class="p-3 rounded-full hover:shadow-xl shadow-sm transition-all duration-300 cursor-pointer"
+					class="p-3 rounded-full hover:shadow-lg hover:shadow-red-200 shadow-md transition-all duration-300 cursor-pointer"
 					href="mailto:dhirajraje113@gmail.com"
 				>
 					<svg
@@ -36,7 +36,7 @@
 					</svg></a
 				>
 				<a
-					class="p-3 rounded-full hover:shadow-xl shadow-sm transition-all duration-300 cursor-pointer"
+					class="p-3 rounded-full hover:shadow-lg hover:shadow-blue-200 shadow-md transition-all duration-300 cursor-pointer"
 					href="tel:+919923454467"
 				>
 					<svg
@@ -52,7 +52,7 @@
 					</svg>
 				</a>
 				<a
-					class="p-3 rounded-full hover:shadow-xl shadow-sm transition-all duration-300 cursor-pointer"
+					class="p-3 rounded-full hover:shadow-xl hover:shadow-blue-200 shadow-md transition-all duration-300 cursor-pointer"
 					href="https://linkedin.com/in/dhiraj-salunke"
 					target="_blank"
 				>
@@ -67,7 +67,7 @@
 					>
 				</a>
 				<a
-					class="p-3 rounded-full hover:shadow-xl shadow-sm transition-all duration-300 cursor-pointer"
+					class="p-3 rounded-full hover:shadow-xl hover:shadow-pink-200 shadow-md transition-all duration-300 cursor-pointer"
 					href="https://www.instagram.com/_dhirajraje_/"
 					target="_blank"
 				>
@@ -82,7 +82,7 @@
 					>
 				</a>
 				<a
-					class="p-3 rounded-full hover:shadow-xl shadow-sm transition-all duration-300 cursor-pointer"
+					class="p-3 rounded-full hover:shadow-lg hover:shadow-slate-300 shadow-md transition-all duration-300 cursor-pointer"
 					href="https://github.com/Dhirajraje"
 					target="_blank"
 				>
@@ -101,7 +101,7 @@
 				<a
 					href="/CV_DhirajSalunke.pdf"
 					target="_blank"
-					class="inline-flex items-center text-white bg-indigo-900 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg"
+					class="inline-flex items-center text-white hover:shadow-lg hover:shadow-indigo-300 bg-indigo-900 transition-all duration-300 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg"
 					><svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5 mx-2 animate-bounce"
