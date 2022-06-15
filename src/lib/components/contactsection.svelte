@@ -15,7 +15,7 @@
 	}
 </script>
 
-<section class="text-gray-600 body-font relative">
+<section id="contact" class="text-gray-600 body-font relative">
 	<h1 class="text-slate-800 font-semibold text-4xl p-8 text-center">Your doorway to me!</h1>
 
 	<div class="container px-5 py-8 mx-auto flex sm:flex-nowrap flex-wrap">
