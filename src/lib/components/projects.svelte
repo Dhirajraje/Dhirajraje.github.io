@@ -33,7 +33,7 @@
 						</p>
 						<a
 							class="mt-3 text-indigo-500 inline-flex items-center"
-							href="https://iccdhiraj.web.app/"
+							href="https://github.com/team-Homo-Novus/hello-farmer"
 							>Learn More
 							<svg
 								fill="none"
