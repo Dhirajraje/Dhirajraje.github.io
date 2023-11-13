@@ -1,4 +1,4 @@
-<section class="px-8">
+<section class="px-8 max-w-screen-2xl mx-auto">
 	<div class="flex flex-wrap -m-4 text-center">
 		<div class="p-4 md:w-1/4 sm:w-1/2 w-full">
 			<div class="flex flex-col items-center border-2 border-gray-200 px-4 py-6 rounded-lg">
