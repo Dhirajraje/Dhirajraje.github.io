@@ -7,6 +7,9 @@
 	function sendMail() {
 		mailer({ name, email, message })
 			.then((data) => {
+				email=''
+				message=''
+				name = ''
 				addToast('Your response has submitted.', 'info', 2000);
 			})
 			.catch((err) => {
