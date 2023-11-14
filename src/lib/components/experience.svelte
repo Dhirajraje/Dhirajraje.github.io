@@ -116,15 +116,8 @@
 				</p>
 			</div>
 		</div>
-		
 		<div class="flex flex-row-reverse md:contents">
-			<div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-				<div class="h-full w-6 flex items-center justify-center">
-					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
-				</div>
-				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
-			</div>
-			<div class="col-start-6 col-end-10 p-4 w-full rounded-xl my-4 mr-auto shadow-md border-2">
+			<div class="col-start-1 w-full col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2">
 				<h3 class="text-slate-800 font-semibold text-lg mb-1">Cloud Engineer</h3>
 				<h5 class="text-indigo-800 font-semibold text-sm">
 					Flentas Technologies, Pune <span class="text-orange-500">Jan-2021:Sept-2021</span>
@@ -148,13 +141,29 @@
 					>
 				</div>
 				<p class="text-slate-600 leading-tight text-justify">
-					● Migrated OnPrem IoT infrastructure to AWS cloud.<br />● Led implementation KPIs, Events,
-					monitoring and billing reporting for IoTand AWS services.
+					<li>Migrated OnPrem IoT infrastructure to AWS cloud.</li>
+					<li>
+						Led implementation KPIs, Events, monitoring and billing reporting for IoTand AWS
+						services.
+					</li>
 				</p>
 			</div>
+			<div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+				<div class="h-full w-6 flex items-center justify-center">
+					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
+				</div>
+				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
+			</div>
 		</div>
+
 		<div class="flex md:contents">
-			<div class="col-start-1 w-full col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2">
+			<div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+				<div class="h-full w-6 flex items-center justify-center">
+					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
+				</div>
+				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
+			</div>
+			<div class="col-start-6 col-end-10 p-4 w-full rounded-xl my-4 mr-auto shadow-md border-2">
 				<h3 class="text-slate-800 font-semibold text-lg mb-1">Flutter intern</h3>
 				<h5 class="text-indigo-800 font-semibold text-sm">
 					Binary Dots PVT LTD <span class="text-orange-500">Aug-2020:Oct-2020</span>
@@ -170,24 +179,14 @@
 					>
 				</div>
 				<p class="text-slate-600 leading-tight text-justify">
-					● Integrated Firebase google auth in existing app of integrated Ads in the existing app.
+					<li>
+						Integrated Firebase google auth in existing app of integrated Ads in the existing app.
+					</li>
 				</p>
-			</div>
-			<div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-				<div class="h-full w-6 flex items-center justify-center">
-					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
-				</div>
-				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
 			</div>
 		</div>
 		<div class="flex flex-row-reverse md:contents">
-			<div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-				<div class="h-full w-6 flex items-center justify-center">
-					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
-				</div>
-				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
-			</div>
-			<div class="col-start-6 w-full col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2">
+			<div class="col-start-1 w-full col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2">
 				<h3 class="text-slate-800 font-semibold text-lg mb-1">Bachelor's of engineer</h3>
 				<h5 class="text-indigo-800 font-semibold text-sm">
 					Savitribai phule pune university, Pune <span class="text-orange-500"
@@ -213,13 +212,25 @@
 					>
 				</div>
 				<p class="text-slate-600 leading-tight text-justify">
-					● Led development of cross-platform apps with flutter and python stack. <br />● Full-stack
-					development to develop multitier web apps.
+					<li>Led development of cross-platform apps with flutter and python stack.</li>
+					<li>Full-stack development to develop multitier web apps.</li>
 				</p>
+			</div>
+			<div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+				<div class="h-full w-6 flex items-center justify-center">
+					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
+				</div>
+				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
 			</div>
 		</div>
 		<div class="flex md:contents">
-			<div class="col-start-1 w-full col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2">
+			<div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+				<div class="h-full w-6 flex items-center justify-center">
+					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
+				</div>
+				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
+			</div>
+			<div class="col-start-6 col-end-10 p-4 w-full rounded-xl my-4 mr-auto shadow-md border-2">
 				<h3 class="text-slate-800 font-semibold text-lg mb-1">A decent homo sapian</h3>
 				<h5 class="text-indigo-800 font-semibold text-sm">
 					Everywhere <span class="text-orange-500">From begining of time</span>
@@ -231,14 +242,10 @@
 					>
 				</div>
 				<p class="text-slate-600 leading-tight text-justify">
-					● Just trying to make this world better place weighing in whenever I can.
+					<li>
+						Just trying to make this world better place weighing in whenever I can.
+					</li>
 				</p>
-			</div>
-			<div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-				<div class="h-full w-6 flex items-center justify-center">
-					<div class="h-full w-1 bg-indigo-800 pointer-events-none" />
-				</div>
-				<div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-indigo-500 shadow" />
 			</div>
 		</div>
 	</div>
