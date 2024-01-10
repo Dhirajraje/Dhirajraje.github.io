@@ -99,7 +99,7 @@
 			</div>
 			<div class="flex justify-center">
 				<a
-					href="/CV_DhirajSalunke.pdf"
+					href="https://docs.google.com/document/d/1L1ZilZCazvswULSI59i1a_bEsPMldjT4SVx9wo3eTCE/edit?usp=sharing"
 					target="_blank"
 					class="inline-flex items-center text-white hover:shadow-lg hover:shadow-indigo-300 bg-indigo-900 transition-all duration-300 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg"
 					><svg
