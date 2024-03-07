@@ -6,11 +6,13 @@ import Footer from "$lib/components/footer.svelte";
 import TechSkills from "$lib/components/techSkills.svelte";
 import Contactsection from "$lib/components/contactsection.svelte";
 import Projects from "$lib/components/projects.svelte";
+import Logocloud from "$lib/components/logocloud.svelte";
 
 </script>
 
 <main>
     <Landing />
+    <Logocloud />
     <Skills />
     <TechSkills />
     <Projects />

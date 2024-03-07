@@ -97,23 +97,31 @@
 					</svg></a
 				>
 			</div>
-			<div class="flex justify-center">
+			<div class="flex justify-center gap-2">
 				<a
 					href="https://docs.google.com/document/d/1L1ZilZCazvswULSI59i1a_bEsPMldjT4SVx9wo3eTCE/edit?usp=sharing"
-					target="_blank"
-					class="inline-flex items-center text-white hover:shadow-lg hover:shadow-indigo-300 bg-indigo-900 transition-all duration-300 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-800 rounded text-lg"
-					><svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-5 w-5 mx-2 animate-bounce"
-						viewBox="0 0 20 20"
-						fill="currentColor"
-					>
-						<path
-							fill-rule="evenodd"
-							d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1.586l-.293-.293a1 1 0 10-1.414 1.414l2 2 .002.002a.997.997 0 001.41 0l.002-.002 2-2a1 1 0 00-1.414-1.414l-.293.293V9z"
-						/>
-					</svg>Get my CV!</a
+					class="relative ring ring-1 hover:ring-0 ring-slate-400 inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group"
 				>
+					<span
+						class="w-60 h-60 rounded rotate-[-40deg] bg-purple-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"
+					/>
+					<span
+						class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white"
+						>Download Resume</span
+					>
+				</a>
+				<a
+					href="/CV_DHIRAJ_SALUNKE.pdf"
+					class="relative ring ring-1 hover:ring-0 ring-slate-400 inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group"
+				>
+					<span
+						class="w-48 h-60 rounded rotate-[-40deg] bg-purple-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"
+					/>
+					<span
+						class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white"
+						>Direct Download</span
+					>
+				</a>
 			</div>
 		</div>
 	</div>
