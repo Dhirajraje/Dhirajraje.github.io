@@ -55,6 +55,7 @@
 					class="p-3 rounded-full hover:shadow-xl hover:shadow-blue-200 shadow-md transition-all duration-300 cursor-pointer"
 					href="https://linkedin.com/in/dhiraj-salunke"
 					target="_blank"
+					id="download-gdoc"
 				>
 					<svg
 						class="w-6 h-6 fill-blue-700"
@@ -67,6 +68,7 @@
 					>
 				</a>
 				<a
+					id="download-direct"
 					class="p-3 rounded-full hover:shadow-xl hover:shadow-pink-200 shadow-md transition-all duration-300 cursor-pointer"
 					href="https://www.instagram.com/_dhirajraje_/"
 					target="_blank"

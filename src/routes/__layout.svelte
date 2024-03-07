@@ -34,6 +34,8 @@
 <div>
 	<a
 		href="#contact"
+		role="button"
+		id="get-in-touch-banner"
 		class="cursor-pointer z-10 hover:shadow-xl hover:bg-indigo-700 shadow-indigo-300 transition-all duration-300 fixed font-bold text-white bg-indigo-900 origin-top float-right mt-9 ml-9 w-72 text-center"
 		style="transform:translateX(-50%) rotate(-45deg);"
 	>
