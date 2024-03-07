@@ -99,6 +99,7 @@
 			</div>
 			<div class="flex justify-center gap-2">
 				<a
+					target="_blank"
 					href="https://docs.google.com/document/d/1L1ZilZCazvswULSI59i1a_bEsPMldjT4SVx9wo3eTCE/edit?usp=sharing"
 					class="relative ring ring-1 hover:ring-0 ring-slate-400 inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group"
 				>
@@ -111,6 +112,7 @@
 					>
 				</a>
 				<a
+					target="_blank"
 					href="/CV_DHIRAJ_SALUNKE.pdf"
 					class="relative ring ring-1 hover:ring-0 ring-slate-400 inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group"
 				>
