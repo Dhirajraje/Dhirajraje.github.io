@@ -23,7 +23,7 @@
 			<div class="flex pb-4 gap-2">
 				<a
 					class="p-3 rounded-full hover:shadow-lg hover:shadow-red-200 shadow-md transition-all duration-300 cursor-pointer"
-					href="mailto:dhirajraje113@gmail.com"
+					href="mailto:dhiraj.salunke.work@gmail.com"
 				>
 					<svg
 						role="img"
@@ -70,7 +70,7 @@
 				<a
 					id="download-direct"
 					class="p-3 rounded-full hover:shadow-xl hover:shadow-pink-200 shadow-md transition-all duration-300 cursor-pointer"
-					href="https://www.instagram.com/_dhirajraje_/"
+					href="https://www.instagram.com/dhiraj.salunke.human/"
 					target="_blank"
 				>
 					<svg
@@ -102,7 +102,7 @@
 			<div class="flex justify-center gap-2">
 				<a
 					target="_blank"
-					href="https://docs.google.com/document/d/1L1ZilZCazvswULSI59i1a_bEsPMldjT4SVx9wo3eTCE/edit?usp=sharing"
+					href="https://docs.google.com/document/d/1Z-rdFutPR5V7JH6Wv02MWScmYDaHlQf65IewdAe1LoM/edit?usp=sharing"
 					class="relative ring ring-1 hover:ring-0 ring-slate-400 inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-white rounded hover:bg-white group"
 				>
 					<span
